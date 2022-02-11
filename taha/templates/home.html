@@ -1,0 +1,13 @@
+
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}HOME{% endblock %}
+{% block content %}
+This is my homepage!
+{{ name }}
+<h1> Hi My Name Is {{ name }} </h1>
+<h2>YOOOOOHOOOOOOOOOO</h2>
+<img src="{% static 'image\camels-feeding-260nw-723072319.png' %}" width="500">
+<script src="{% static 'javascript/popup.js' %}"></script>
+<button onclick="func()">Ohoy there</button>
+{% endblock %}
